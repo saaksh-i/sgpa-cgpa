@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sstyle.css">
+    <script src="sscript.js" defer></script>
+    <title>SGPA</title>
+</head>
+<body>
+    <header>
+        <h1 style="color:black;">SGPA Calculator</h1>
+        <h3 style="color:orange;">Note: If you cleared backlogs of previous semesters and got the results now,you should add those subjects to this SGPA.</h3>
+        <h4>Marks: Enter marks out of 100 which includes both external and internal marks</h4>
+    </header>
+    <main>
+        <div class="container">
+            <div class="subjects">
+                <h4>Subjects</h4>
+                <p>Sub 1</p>
+                <hr>
+                <p>Sub 2</p>
+                <hr>
+                <p>Sub 3</p>
+                <hr>
+                <p>Sub 4</p>
+                <hr>
+                <p>Sub 5</p>
+                <hr>
+            </div>
+            <div class="credits">
+                <h4>Credits</h4>
+                <input type="number" id="credit1" min="1" max="10" value="0">
+                <hr>
+                <input type="number" id="credit2" min="1" max="10" value="0">
+                <hr>
+                <input type="number" id="credit3" min="1" max="10" value="0">
+                <hr>
+                <input type="number" id="credit4" min="1" max="10" value="0">
+                <hr>
+                <input type="number" id="credit5" min="1" max="10" value="0">
+                <hr>
+            </div>
+            <div class="marks">
+                <h4>Marks</h4>
+                <input type="number" id="mark1" min="0" max="100" value="0">
+                <hr>
+                <input type="number" id="mark2" min="0" max="100" value="0">
+                <hr>
+                <input type="number" id="mark3" min="0" max="100" value="0">
+                <hr>
+                <input type="number" id="mark4" min="0" max="100" value="0">
+                <hr>
+                <input type="number" id="mark5" min="0" max="100" value="0">
+                <hr>
+            </div>
+            <div class="outcome">
+                <h4>Choose</h4>
+                <select id="result1">
+                    <option value="1">Pass</option>
+                    <option value="0">Fail</option>
+                </select>
+                <hr>
+                <select id="result2">
+                    <option value="1">Pass</option>
+                    <option value="0">Fail</option>
+                </select>
+                <hr>
+                <select id="result3">
+                    <option value="1">Pass</option>
+                    <option value="0">Fail</option>
+                </select>
+                <hr>
+                <select id="result4">
+                    <option value="1">Pass</option>
+                    <option value="0">Fail</option>
+                </select>
+                <hr>
+                <select id="result5">
+                    <option value="1">Pass</option>
+                    <option value="0">Fail</option>
+                </select>
+                <hr>
+            </div>
+        </div>
+        <button id="add">Add another subject</button>
+        <br>
+        <button id="calculate">Calculate</button>
+        <table class="result">
+            <tr>
+                <th colspan="2">Results</th>
+            </tr>
+            <tr>
+                <td>Registered Credits</td>
+                <td id="regCredits">¯\_(ツ)_/¯</td>
+            </tr>
+            <tr>
+                <td class="makeRed">Earned Credits</td>
+                <td class="makeRed" id="earnedCredits">¯\_(ツ)_/¯</td>
+            </tr>
+            <tr>
+                <td class="makeRed">CiGi</td>
+                <td class="makeRed" id="CG">¯\_(ツ)_/¯</td>
+            </tr>
+            <tr>
+                <td>SGPA</td>
+                <td id="sgpa">¯\_(ツ)_/¯</td>
+            </tr>
+        </table>
+        <p>Note down the results that are marked in red</p>
+        <h4 style="color:orange;">
+        Reload the page to calculate for another semester.
+        </h4>
+        <a href="../cgpa/cindex.html" target="_blank"><h4>Load CGPA page</h4></a>
+    </main>
+    <!-- <footer>
+        <div>
+            © Designed by J.K.S
+        </div>
+    </footer> -->
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    background-color: #7FFFD4;
+    color: black;
+    text-align: center;
+    font-family: "Baskerville",Arial,'Times New Roman', Times, serif,sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+a h4{
+    color:blue;
+}
+main{
+    margin: 0 0 35px;
+}
+input,select{
+    height: 22px;
+    margin: 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 15px;
+    display: block;
+}
+button{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    width: 100px;
+    font-size: larger;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 20px;
+}
+.subjects h4{
+    margin-bottom: 24px;
+}
+p{
+    height: 22px;
+}
+select{
+    height: 28px;
+    padding: 1px;
+    width: 80px;
+}
+#add{
+    width: auto;
+}
+table{
+    border: 3px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: large;
+}
+th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+.makeRed{
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+}

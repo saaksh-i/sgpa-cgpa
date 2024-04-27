@@ -1,0 +1,58 @@
+*{
+    background-color: #7FFFD4;
+    color: black;
+    text-align: center;
+    font-family: "Baskerville",Arial,'Times New Roman', Times, serif,sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+main{
+    margin: 0 0 35px;
+}
+table{
+    margin: auto;
+}
+th,td{
+    padding: 5px;
+}
+th h3{
+    color: black;
+}
+input{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 15px;
+}
+button{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: auto;
+    width: 100px;
+    font-size: larger;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.result h3{
+    color : black;
+}
+#cgpa{
+    margin:0 25px 0;
+    font-size: 20px;
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+}

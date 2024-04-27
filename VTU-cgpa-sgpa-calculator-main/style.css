@@ -1,0 +1,26 @@
+*{
+    background-color: #7FFFD4;
+    color: black;
+    text-align: center;
+    font-family: "Baskerville ",Arial,'Times New Roman', Times, serif,sans-serif;
+}
+body{
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+    margin:35px;
+}
+a{
+    color: black;
+    margin: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+}
